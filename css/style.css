@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+.my-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.my-home-jumbotron {
+  background: 
+    linear-gradient(to top, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0, 
+    url('/img/warehouse1.jpg'); 
+  background-position: center; 
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.my-product-jumbotron {
+  background: 
+    linear-gradient(to top, rgba(0, 0, 0, 0.3) 0px, rgba(0, 0, 0, 0.3) 100%) repeat 0 0, 
+    url('/img/pipes1.jpg'); 
+  background-position: center; 
+  background-size: cover;
+  height: 250px;
+  color: white;
+}
+
+.my-company-profile-jumbotron {
+  background: 
+    linear-gradient(to top, rgba(0, 0, 0, 0.3) 0px, rgba(0, 0, 0, 0.3) 100%) repeat 0 0, 
+    url('/img/warehouse3.jpg'); 
+  background-position: center; 
+  background-size: cover;
+  height: 250px;
+  color: white;
+}
+
+.my-contact-jumbotron {
+  background: 
+    linear-gradient(to top, rgba(0, 0, 0, 0.3) 0px, rgba(0, 0, 0, 0.3) 100%) repeat 0 0, 
+    url('/img/warehouse2.jpg'); 
+  background-position: center; 
+  background-size: cover;
+  height: 250px;
+  color: white;
+}
+
+.my-product-img {
+  height: 150px;
+}

@@ -1,0 +1,381 @@
+/*
+
+CSS Credit: http://www.templatemo.com/
+
+*/
+
+body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Tahoma, Geneva, sans-serif;
+
+	font-size: 14px;
+
+	line-height: 1.5em;
+
+	color: #585858;
+
+	background-color: #D5FFD5;
+
+}
+
+a:link, a:visited { color: #006600; text-decoration: none; } 
+
+a:active, a:hover { color: #CC0000; text-decoration: none; }
+
+h1 {
+
+	font-size: 22px;
+
+	font-weight: bold;
+
+	color: #38713a;
+
+	height: 32px;
+
+	background: url(../images/header1.jpg) no-repeat;
+
+	padding: 15px 0px 0px 55px;
+
+}
+
+h2 {
+
+	margin-top: 20px;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	color: #56b81b;
+
+	height: 20px;
+
+	padding: 7px 0px 0px 35px;
+
+	background: url(../images/header2.jpg) no-repeat;
+
+}
+
+#bwscontainer {
+
+	width: 900px;
+
+	margin: auto;
+
+	background-color: #fff;
+
+}
+
+#top_section {
+
+	float: right;
+
+	width: 900px;
+
+	height: 50px;
+
+	background: url(../images/menu.jpg) no-repeat;
+
+}
+
+#welcomesection {
+
+	float: left;
+
+	width: 900px;
+
+}
+
+#welcomesection img {
+
+	float: left;
+
+	padding-right: 10px;
+
+}
+
+#productsection {
+
+	float: left;
+
+	font-size:12px;
+
+	width: 900px;
+
+}
+
+.topmenu{
+
+	float: right;
+
+	width: 580px;
+
+	padding-right: 20px;
+
+}
+
+.topmenu ul {
+
+	list-style: none;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+
+.topmenu li{
+
+	display: inline ;
+
+}
+
+.topmenu li a{
+
+	float: right;
+
+	text-align: center;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #fff;
+
+	width: 110px;
+
+	height: 30px;
+
+	padding: 14px 0px 0px 25px;
+
+}
+
+.topmenu li a:hover{
+
+	color: #91e30c;
+
+	text-decoration: underline;
+
+}
+
+#headersection {
+
+	float: left;
+
+	width: 410px;
+
+	height: 180px;
+
+	color: #fff;
+
+	text-align: justify;
+
+	font-size: 11px;
+
+	padding: 63px 140px 0px 350px;
+
+	background: url(../images/header.jpg) no-repeat;
+
+}
+
+#headersection span {
+
+	font-size: 18px;
+
+	font-weight: bold;
+
+}
+
+#welcomesection {
+
+	float: left;
+
+	width: 800px;
+
+	text-align: justify;
+
+	padding: 0px 50px 0px 50px;
+
+}
+
+#footersection {
+
+	clear: both;
+
+	width: 900px;
+
+	height: 70px;
+
+	margin-top: 20px;
+
+	background-color: #cbf0bb;
+
+	text-align: center;
+
+	padding-top: 7px;
+
+}
+
+#boxleft {
+
+	float: left;
+
+	width: 400px;
+
+	padding-left: 50px;
+
+}
+
+#templatemo_boxright {
+
+	float: left;
+
+	width: 430px;
+
+	padding-left: 20px;
+
+}
+
+.box_left {
+
+	float: left;
+
+	width: 23px;
+
+	height: 253px;
+
+	background: url(../images/box_left.jpg) no-repeat;
+
+}
+
+.box_middle {
+
+	float: left;
+
+	width: 790px;
+
+	height: 253px;
+
+	text-align: justify;
+
+	padding: 0px 5px 0px 5px;
+
+	background: url(../images/box_middle.jpg) repeat-x;
+
+}
+
+.box_middle img {
+
+	float: left;
+
+	padding-right: 10px;
+
+}
+
+.box_right {
+
+	float: left;
+
+	width: 23px;
+
+	height: 253px;
+
+	background: url(../images/box_right.jpg) no-repeat;
+
+}
+
+.morebutton1 {
+
+	background: url(../images/morebutton1.jpg) no-repeat;
+
+	font-size: 11px;
+
+	height: 39px;
+
+	width: 62px;
+
+	padding: 8px 0px 0px 20px;
+
+	font-weight: bold;
+
+}
+
+.morebutton1 a {
+
+	color: #FFFFFF;
+
+}
+
+.morebutton2 {
+
+	float: right;
+
+	background: url(../images/morebutton2.jpg) no-repeat;
+
+	width: 51px;
+
+	height: 28px;
+
+	font-size: 10px;
+
+	padding: 5px 0px 0px 10px;
+
+}
+
+.morebutton2 a {
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+}
+
+
+.js-disabled img { width:100px; height:100px; display:block; float:left; margin:30px 0 0; }
+
+#outerContainer { width:760px; height:114px; margin:auto; position:relative; }
+#imageScroller { width:750px; height:132px; position:relative;/* background: #cda32b; */}
+#viewer { width:750px; height:111px; overflow:hidden; margin:auto; position:relative; top:10px; }
+#imageScroller a:active, #imageScroller a:visited { color:#000000; }
+#imageScroller a img { border:0; }
+#controls { width:534px; height:47px; background:url(http://www.thanalohakij.com/style/images/controlsBG.png) no-repeat; position:absolute; top:4px; left:4px; z-index:10;	}
+#controls a { width:37px; height:35px; position:absolute; top:3px; }
+#controls a:active, #controls a:visited { color:#0d0d0d; }
+#title { color:#ffffff; font-family: Tahoma, Geneva, sans-serif; font-size:100%; font-weight:bold; width:100%; text-align:center; margin-top:10px; }
+#rtl { background:url(http://www.thanalohakij.com/style/images/rtl.png) no-repeat; left:100px; }
+#rtl:hover { background:url(http://www.thanalohakij.com/style/images/rtl_over.png) no-repeat; left:99px; }
+#ltr { background:url(http://www.thanalohakij.com/style/images/ltr.png) no-repeat; right:100px; }
+#ltr:hover { background:url(http://www.thanalohakij.com/style/images/ltr_over.png) no-repeat; }
+
+.product_head{
+	background:#38713a;
+	color:#FFFFFF;
+}
+.product_meterial_h{
+	background:#666666;
+	color:#FFFFFF;
+}
+.product_typespec_h{
+	color:#000000;
+	font-weight:bold;
+	background:#999;
+}
+.table_left{
+	padding-right:5px;
+	text-align:right;
+	font-weight:bold;
+	width:110px;
+	vertical-align:top;
+	background:#FFF;
+}
+.table_right{
+	padding-left:5px;
+	text-align:left;
+	vertical-align:top;
+	background:#FFF;
+}
